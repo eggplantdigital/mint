@@ -1,0 +1,2 @@
+# mint
+A Woocommerce Theme
