@@ -1,0 +1,123 @@
+== Mint Changelog ==
+
+2018.11.26 - v1.6.7
+- Adds Woocommerce support
+
+2018.10.26 - v1.6.6
+- Fix some styling issues on the menu and page headers
+
+2018.10.05 - v1.6.5
+- Update Google Webfonts
+- Update file structure and re-organise in preparation for the next release.
+
+2017.11.16 - v1.6.4
+- Add a new option in the customizer to allow users to filter the posts on the homepage with a tag
+
+2017.09.29 - v1.6.3
+- Add a new option in the customizer to allow users to alter the single post layout
+
+2017.02.17 - v1.6.2
+- Add a new option in the customizer to disable latest posts on the a static page
+
+2017.01.26 - v1.6.1
+- Fix an error for the blog posts on a static front page
+
+2017.01.22 - v1.6.0
+- Rewritten the layout functions
+- Updated the screenshot & theme description
+- Escape HTML in the footer credit
+- Added slider image size
+- Added 3 blogs posts to the front page
+- Added the latest Google Fonts list
+- Slightly nicer search form
+- Included Translations for Chinese
+- Other small styling fixes
+
+2016.12.20 - v1.5.12
+- Stop words becoming hyphenated on small screens
+- Small fixes to the slider
+
+2016.09.27 - v1.5.11
+- Improve the post meta functions and layouts in the admin
+- Update fontawesome to version 4.6.3
+- Added email, google+, vimeo, reddit to the social icon options
+- Allow html in the footer textarea inside the Customizer
+
+2016.06.03 - v1.5.1
+- New animated navigation icon for mobile devices
+- Added an RSS feed option to the social icons
+- Added fuller comments and descriptions to the post helper functions
+- Fixed some other small problems
+
+2016.05.20 - v1.5.0
+- Introducing a new slider to proudly display your posts with images
+- Fixed several small problems
+
+2015.10.22 - v1.4.0
+- Introducing 6 color scheme option in the Customizer including - blue, green, red, pink, yellow and orange
+
+2015.10.19 - v1.3.1
+- Fixed a bug where the top menu won't show until user saves customizer settings
+
+2015.09.12 - v1.3.0
+- Allow bloggers to hide the about the author section on the single post
+- Bloggers can now add featured images to their pages
+- Fixed some small styling issues
+
+2015.07.31 - v1.2.1
+- Fixed some small errors
+
+2015.07.20 - v1.2.0
+- Support for custom Typography including Google fonts
+- New improved screenshot!
+
+2015.07.06 - v1.1.1
+- Amendments to text domain
+
+2015.06.26 - v1.1.0
+- Added header image support
+- Added social media links into the customizer
+- Improvements on the responsive header menu code
+- Make the main.css stylesheet dependant on loading bootstrap first
+
+2015.05.13 - v1.0.5
+- Include 4 new page templates for full width, 2 sidebars and left / right sidebars
+
+2015.04.08 - v1.0.4
+- Remove theme-metaboxes.php not being used
+- Moved actions into the theme template files
+- Removed wp_title from the header
+- Reorganised files
+- Removed non required images and css files
+- Moved template parts into a partial folder
+- Escape home_url
+
+2015.04.08 - v1.0.3
+- Removed the meta content type from header.php
+- Include the license GPL
+- Updated text domain to mint instead of twentyfifteen
+- Include non-minified version of the js file
+- FIX: JS error
+- FIX: The add_theme_support and register_nav_menus needs to be in a function and added with after_setup_theme
+- FIX: Stop enqueuing jQuery as  its added as a dependancy
+- Add prefixes to the scripts
+
+2015.04.01 - v1.0.2
+- Fixed PHP errors
+- Fixed text domain and translation problems
+- Replace theme screenshot with a valid one
+- Remove Theme Options page and social links in favour of plugin
+- Un-minified JS files
+- Include an option to choose blog layout
+
+2015.03.12 - v1.0.1
+- Improvement to UI on theme options page to allow tabs at the top to separate sections
+- Put the header title back as <title><?php wp_title(); ?></title>
+- Removed a stray line on the theme_options section
+- Added a filter on the theme_options return value
+- Changed footer so website credit shows by default, unless turned off in the customizer
+- The function "mint_author_meta" needed global $post; added to it
+- Increase the pagination bottom margin to 2.500em
+- Closed the head tag properly @_@
+- Change the header icons and menu marge to a percentage
+- General CSS tweaks, bug fixes and improvements

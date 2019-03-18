@@ -1,0 +1,1 @@
+<div class="mint-product-title-wrapper">
